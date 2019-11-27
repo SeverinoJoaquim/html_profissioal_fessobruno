@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Galeria de imagens - Aula 108</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	</head>
+	<body>
+
+		<section class="galeria">
+			<img src="img/m1.jpg" alt="Texto1" onclick="mostrarImagem(this)">
+			<img src="img/m2.jpg" alt="Texto2" onclick="mostrarImagem(this)">
+			<img src="img/m3.jpg" alt="Texto3" onclick="mostrarImagem(this)">
+			<img src="img/m4.jpg" alt="Texto4" onclick="mostrarImagem(this)">
+			<img src="img/m5.jpg" alt="Texto5" onclick="mostrarImagem(this)">
+			<img src="img/m6.jpg" alt="Texto6" onclick="mostrarImagem(this)">
+		</section>
+
+		<section class="container">
+			<span onclick="this.parentElement.style.display='none'" class="btn_fechar">&times;</span>
+			<img id="imagemGrande">
+		</section>
+
+		<section>
+			<p class="gal">Galeria de imagens</p>
+		</section>
+
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+	</body>
+</html>
