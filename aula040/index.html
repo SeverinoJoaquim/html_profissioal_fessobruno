@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulário P10 (list, datalist) - Aula 40</title>
+		<style>
+			.quebra{
+				display:block;
+				/*margin-bottom: 10px;*/
+			}
+			.espaco{
+				margin-bottom: 15px;
+			}
+			.espaco_t{
+				margin-top: 15px;
+			}
+			input {
+				margin-bottom: 10px;
+			}
+			form{
+				border:1px solid #000;
+				padding:10px;
+				border-radius:15px;
+				background-color:#eee;
+			}
+		</style>
+	</head>
+	<body>
+
+		<form name="f_cadastro" action="#" method="get" enctype="multipart/form-data">
+			
+			<input list="f_estado" name="f_cor">
+			<datalist id="f_cores">
+				<option value="green">Verde</option>
+				<option value="yellow">Amarelo</option>
+				<option value="blue">Azul</option>
+				<option value="white">Branco</option>	
+			</datalist>
+
+			<datalist id="f_estado">
+				<option value="PE">Pernambuco</option>
+				<option value="PB">Paraíba</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="CE">Ceará</option>
+				<option value="PI">Piauí</option>
+				<option value="MA">Maranhão</option>
+				<option value="AL">Alagoas</option>
+				<option value="SE">Sergipe</option>
+				<option value="BA">Bahia</option>
+				<option value="PA">Pará</option>
+				<option value="TO">Tocantins</option>
+			</datalist>
+
+			<input class="espaco_t quebra" type="submit" name="f_enviar" value="Enviar">
+		</form>
+
+	</body>
+</html>
