@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulário P11 (fieldset) - Aula 41</title>
+		<style>
+			.quebra{
+				display:block;
+				/*margin-bottom: 10px;*/
+			}
+			.espaco{
+				margin-bottom: 15px;
+			}
+			.espaco_t{
+				margin-top: 15px;
+			}
+			input {
+				margin-bottom: 10px;
+			}
+			form{
+				border:1px solid #000;
+				padding:10px;
+				border-radius:15px;
+				background-color:#eee;
+			}
+		</style>
+	</head>
+	<body>
+
+		<form name="f_cadastro" action="#" method="get">
+			
+			<fieldset>
+				<legend>Dados 1</legend>
+				<label for="f_nome">Nome:</label>
+				<input type="text" name="f_nome" id="f_nome" class="quebra">
+				<br>
+
+				<label for="f_telefone">Telefone:</label>
+				<input type="tel" name="f_telefone" id="f_telefone" class="quebra">
+				<br>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Dados 2</legend>
+				<label for="f_carro">Possui carro?</label><br>
+				<input type="radio" name="f_carro" id="f_carro" value="S">Sim<br>
+				<input type="radio" name="f_carro" id="f_carro" value="N" checked>Não<br>
+
+				<label for="f_casa">Possui casa própria?</label><br>
+				<input type="radio" name="f_casa" id="f_casa" value="S" checked>Sim<br>
+				<input type="radio" name="f_casa" id="f_casa" value="N">Não<br>
+			</fieldset>
+
+			<input class="espaco_t quebra" type="submit" name="f_enviar" value="Enviar">
+		</form>
+
+	</body>
+</html>
