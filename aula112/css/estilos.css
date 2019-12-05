@@ -1,0 +1,17 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.bg {
+	background-image: url("../img/i1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+p {
+	font-size: 30px;
+	padding: 20px;
+}
