@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Tag output - Aula 63</title>
+</head>
+<body>
+	<form oninput="res.value=parseInt(a.value)+parseInt(b.value)">
+		0<input type="range" id="a" value="50">100
+		<p>+</p>
+		<input type="number" id="b" value="0">
+		<p>=</p>
+		<output name="res" for="a b"></output>
+	</form>
+	
+</body>
+</html>
