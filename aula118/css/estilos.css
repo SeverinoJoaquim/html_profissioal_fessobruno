@@ -1,0 +1,16 @@
+.botao{
+	border-radius: 15px;
+	background-color: #51f;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	width: 200px;
+	cursor: pointer;
+	margin: 5px;
+	/*transition: all 0.5s;*/
+}
+#mais {
+	display: none;
+}
