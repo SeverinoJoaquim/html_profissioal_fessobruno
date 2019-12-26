@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Tabelas html, thead, tbody e tfoot - Aula 77</title>
+
+		<style type="text/css">
+			thead {
+				color: #0808;
+			}
+			tbody {
+				color: #f00;	
+			}
+			tfoot {
+				color: #00f;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Tabelas html, thead, tbody e tfoot</h1>
+		<h2>Possibilidade 1</h2>
+		<table border="1">
+			<tr>
+				<th>Fabricante</th>
+				<th>Modelo</th>
+				<th>Valor</th>
+			</tr>
+			<tr>
+				<td>Honda</td>
+				<td>WRV</td>
+				<td>R$ 75.000,00</td>
+			</tr>
+			<tr>
+				<td>FIAT</td>
+				<td>Argol</td>
+				<td>R$ 25.000,00</td>
+			</tr>
+			<tr>
+				<td>VolksWagem</td>
+				<td>Polo</td>
+				<td>R$ 275.000,00</td>
+			</tr>
+			<tr>
+				<td>Chevrolet</td>
+				<td>Tutca</td>
+				<td>R$ 55.000,00</td>
+			</tr>
+			<tr>
+				<td colspan="3">Proços referentes ao ano de 2019</td>
+			</tr>
+		</table>
+		<h2>Possibilidade 2 - Observando a semântica</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Fabricante</th>
+					<th>Modelo</th>
+					<th>Valor</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Honda</td>
+					<td>WRV</td>
+					<td>R$ 75.000,00</td>
+				</tr>
+				<tr>
+					<td>FIAT</td>
+					<td>Argol</td>
+					<td>R$ 25.000,00</td>
+				</tr>
+				<tr>
+					<td>VolksWagem</td>
+					<td>Polo</td>
+					<td>R$ 275.000,00</td>
+				</tr>
+				<tr>
+					<td>Chevrolet</td>
+					<td>Tutca</td>
+					<td>R$ 55.000,00</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Preços referentes ao ano de 2019</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
