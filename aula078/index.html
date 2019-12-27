@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Tabelas html - Formatando tabela com CSS - Aula 78</title>
+
+		<style type="text/css">
+			thead {
+				color: #0a0;
+				background: #eee;
+			}
+			tbody {
+				color: #f00;	
+			}
+			tfoot {
+				color: #00f;
+			}
+			table, th, td {
+				border: 1px solid #000;
+			}
+			table{
+				border-collapse: collapse;
+			}
+			.especial {
+				border: 2px solid #f00;	
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Formatação 1</h1>
+		<h2>Possibilidade 1</h2>
+		<table>
+			<tr>
+				<th>Fabricante</th>
+				<th>Modelo</th>
+				<th>Valor</th>
+			</tr>
+			<tr>
+				<td>Honda</td>
+				<td>WRV</td>
+				<td>R$ 75.000,00</td>
+			</tr>
+			<tr>
+				<td>FIAT</td>
+				<td>Argol</td>
+				<td>R$ 25.000,00</td>
+			</tr>
+			<tr>
+				<td>VolksWagem</td>
+				<td>Polo</td>
+				<td>R$ 275.000,00</td>
+			</tr>
+			<tr>
+				<td>Chevrolet</td>
+				<td>Tutca</td>
+				<td>R$ 55.000,00</td>
+			</tr>
+			<tr>
+				<td colspan="3">Proços referentes ao ano de 2019</td>
+			</tr>
+		</table>
+		<h2>Formatação 2 - Observando a semântica</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Fabricante</th>
+					<th>Modelo</th>
+					<th>Valor</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Honda</td>
+					<td>WRV</td>
+					<td>R$ 75.000,00</td>
+				</tr>
+				<tr>
+					<td>FIAT</td>
+					<td>Argol</td>
+					<td>R$ 25.000,00</td>
+				</tr>
+				<tr>
+					<td class="especial">VolksWagem</td>
+					<td class="especial">Polo</td>
+					<td class="especial">R$ 275.000,00</td>
+				</tr>
+				<tr>
+					<td>Chevrolet</td>
+					<td>Tutca</td>
+					<td>R$ 55.000,00</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Preços referentes ao ano de 2019</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
