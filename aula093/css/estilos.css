@@ -1,0 +1,22 @@
+.menu {
+	background-color: #ccc;
+	width: 70px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.menu a{
+	display: block;
+	padding: 10px;
+	margin: auto;
+	transition: all 0.5s ease;
+}
+.menu a:hover{
+	background-color: #400;
+}
+img{
+	width: 50px;
+}
+.ativo {
+	background-color: #a00;	
+}
