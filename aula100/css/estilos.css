@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: "Lato",Consolas, Arial,sans-serif;
+}
+header{
+	overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 90px 10px;
+	transition: 0.6s;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 100;
+}
+header a{
+	text-decoration: none;
+	float: left;
+	color: #000;
+	text-align: center;
+	padding: 12px;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 5px;
+}
+#logo{
+	font-size: 35px;
+	font-weight: bold;
+	transition: 0.4s;
+}
+header a:hover{
+	background-color: #ddd;
+	color: #a0f;
+	transition: 0.4s;
+}
+#menu{
+	float: right;
+}
+header a.ativo{
+	background-color: #800;
+	color: #fff;
+}
