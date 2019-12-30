@@ -1,0 +1,53 @@
+body{
+	font-family: Consolas, Arial;
+}
+.container{
+	max-width: 480px;
+	margin: auto;
+	background-color: #555;
+	height: 1000px;
+	color: #fff;
+	border-radius: 0px 0px 20px 20px;
+}
+.topo{
+	overflow: hidden;
+	background-color: #000;
+	position: relative;
+}
+#menu{
+	display: none;
+}
+.topo a{
+	color: #eee;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	display: block;
+}
+nav a{
+	text-transform: uppercase;
+}
+.btnMenu{
+	background-color: #1aa;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+/*a img{
+	width: 30px;
+	height: 30px;
+	margin: auto;
+}*/
+.topo a:hover{
+	background-color: #800;
+	color: #fff;
+	transition: 0.4s;
+}
+.ativo{
+	background-color: #800;
+	color: #fff;
+}
